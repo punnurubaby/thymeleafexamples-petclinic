@@ -1,14 +1,14 @@
 pipeline {
     agent any
 	stages{
-		stage('checkout'){
-		git '
-	
-
-        
-		        
-		  
+		stage('Checkout'){
+			steps{
+		            git 'git@github.com:punnurubaby/thymeleafexamples-petclinic.git'
+			}
+		}
 	}
-    }
 }
+			
+                 
+             
 
